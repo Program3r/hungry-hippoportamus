@@ -1,0 +1,19 @@
+{
+  "name": "hungry-hippoportamus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Program3r/hungry-hippoportamus.git"
+  },
+  "author": "Program3r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Program3r/hungry-hippoportamus/issues"
+  },
+  "homepage": "https://github.com/Program3r/hungry-hippoportamus#readme"
+}
