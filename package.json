@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Program3r/hungry-hippoportamus/issues"
   },
-  "homepage": "https://github.com/Program3r/hungry-hippoportamus#readme"
+  "homepage": "https://github.com/Program3r/hungry-hippoportamus#readme",
+  "dependencies": {
+    "libnmap": "^0.2.27"
+  }
 }
