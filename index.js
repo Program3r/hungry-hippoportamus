@@ -1,10 +1,9 @@
 var forwardCount = 40000;
 var forwardTo = function(ip){
 	forwardCount++;
-	console.log("Discovered "+ip+" running on "+forwardCount);
+	console.log("Discovered "+ip+" now avaliable on "+forwardCount);
 	var exec = require('child_process').exec;
 var child = exec('iptables -t nat -A PREROUTING -p tcp --dport '+forwardCount+' -j DNAT --to-destination '+ip+':12348', function(){
-console.log(arguments);
 });
 	
 }
@@ -32,3 +31,4 @@ nmap.scan(opts, function(err, report) {
         }
     }
 });
+require('net').createServer().listen();
