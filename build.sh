@@ -1,1 +1,1 @@
-docker build -t "service-discovery" .
+docker build -t "program3r/hungry-hippoportamus" .
